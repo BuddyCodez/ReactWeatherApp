@@ -40,7 +40,7 @@ function Weather() {
             aria-label="city"
             aria-describedby="city"
                       onChange={(e) => setCity(e.target.value)}
-                      placeholder="Enter city"
+                      placeholder="Enter Location"
           />
         </div>
         <button type="button" class="btn btn-primary" onClick={FetchWeather}>

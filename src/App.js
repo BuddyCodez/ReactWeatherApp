@@ -5,6 +5,8 @@ function App() {
   return (
     <>
      <Weather />
+     
+      <img src="/logo192.png" />
     </>
   )
 }
